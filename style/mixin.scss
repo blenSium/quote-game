@@ -1,0 +1,54 @@
+$pink: rgb(255, 0, 183);
+$blue: #0ff;
+
+@mixin quoteSection($bg, $text, $shadow) {
+  color: $text;
+  background-color: $bg;
+  box-shadow: 0px 0px 20px 10px $shadow;
+  font-family: "Public Sans", sans-serif;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@mixin home($text) {
+  color: $text;
+  font-size: 20px;
+  position: relative;
+  left: 300px;
+  top: 35px;
+}
+
+@mixin answerButtons($bg, $text) {
+  width: 150px;
+  height: 80px;
+  background-color: $bg;
+  border-radius: 5px;
+  border: none;
+  color: $text;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@mixin gameOver() {
+  width: 300px;
+  height: 120px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(230, 122, 7);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@mixin correct() {
+  background-color: rgb(12, 233, 12);
+  box-shadow: 0px 0px 20px 10px rgb(12, 233, 12);
+}
+
+@mixin wrong() {
+  background-color: red;
+  box-shadow: 0px 0px 20px 10px red;
+}

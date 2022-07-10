@@ -1,0 +1,30 @@
+body {
+  background-image: url(https://www.aussietheatre.com.au/wp-content/uploads/2021/01/Ready-for-a-quiz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: 0px 150px;
+}
+
+button {
+  position: relative;
+  top: 600px;
+  left: 60px;
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  text-shadow: 0 0 7px #5860ea, 0 0 10px #5860ea, 0 0 21px #5860ea, 0 0 42px #5496dc, 0 0 82px #5496dc, 0 0 92px #5496dc, 0 0 102px #5496dc, 0 0 151px #5496dc;
+}
+
+.dropdown-menu {
+  background-color: #ff00b7;
+  width: 70%;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+/*# sourceMappingURL=main.css.map */

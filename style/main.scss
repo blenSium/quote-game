@@ -1,0 +1,36 @@
+@import "mixin.scss";
+body{
+    background-image: url(https://www.aussietheatre.com.au/wp-content/uploads/2021/01/Ready-for-a-quiz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 0px 150px;
+}
+
+button{
+    position:relative;
+    top: 600px;
+    left: 60px;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-shadow:
+        0 0 7px rgb(88, 96, 234),
+        0 0 10px rgb(88, 96, 234),
+        0 0 21px rgb(88, 96, 234),
+        0 0 42px rgb(84, 150, 220),
+        0 0 82px rgb(84, 150, 220),
+        0 0 92px rgb(84, 150, 220),
+        0 0 102px rgb(84, 150, 220),
+        0 0 151px rgb(84, 150, 220);
+}
+.dropdown-menu{
+    background-color: $pink;
+    width: 70%;
+    .dropdown-item{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    }
+}

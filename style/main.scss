@@ -1,0 +1,89 @@
+@import "mixin.scss";
+// body{
+//     background-image: url(https://www.aussietheatre.com.au/wp-content/uploads/2021/01/Ready-for-a-quiz.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-color: black;
+//     background-position: 0px 150px;
+// }
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #181818;
+}
+
+.animation {
+    width: 300px;
+    height: 200px;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation::before{
+    content: "";
+    background-image: conic-gradient(
+        $blue 20deg,
+        transparent 120deg
+    );
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+.animation::after{
+    content: "Ready For a Quiz?";
+    width: 290px;
+    height: 190px;
+    background: #101010;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $pink;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    box-shadow: inset 20px 20px 20px #0000008c;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+button{
+    margin-top: 300px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-shadow:
+        0 0 7px rgb(88, 96, 234),
+        0 0 10px white,
+        0 0 21px white,
+        0 0 42px rgb(84, 150, 220),
+        0 0 82px rgb(84, 150, 220),
+}
+.dropdown-menu{
+    background-color: $pink;
+    width: 100%;
+    .dropdown-item{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    }
+}
+}

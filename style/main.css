@@ -1,0 +1,119 @@
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #181818;
+}
+
+.animation {
+  width: 300px;
+  height: 200px;
+  -webkit-box-shadow: 16px 14px 20px #0000008c;
+          box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  position: absolute;
+  top: 200px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.animation::before {
+  content: "";
+  background-image: conic-gradient(#0ff 20deg, transparent 120deg);
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+}
+
+.animation::after {
+  content: "Ready For a Quiz?";
+  width: 290px;
+  height: 190px;
+  background: #101010;
+  position: absolute;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff00b7;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  -webkit-box-shadow: inset 20px 20px 20px #0000008c;
+          box-shadow: inset 20px 20px 20px #0000008c;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+.dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown button {
+  margin-top: 300px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  text-shadow: 0 0 7px #5860ea, 0 0 10px white, 0 0 21px white, 0 0 42px #5496dc, 0 0 82px #5496dc;
+}
+
+.dropdown .dropdown-menu {
+  background-color: #ff00b7;
+  width: 100%;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+/*# sourceMappingURL=main.css.map */

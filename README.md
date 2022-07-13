@@ -11,6 +11,7 @@ The game is only for mobile.
 * Java Script
 *API
 * Bootstrap
+#### design
 <img width="154" alt="front-page" src="https://user-images.githubusercontent.com/105584167/178556485-0ec6b747-1849-4dc3-8843-f296ebff6bea.png">
 <img width="151" alt="game-example" src="https://user-images.githubusercontent.com/105584167/178556519-ee9caccf-c372-4957-8dbf-2d50b97d2a3d.png">
 <img width="152" alt="game-over" src="https://user-images.githubusercontent.com/105584167/178556551-27bef778-6b01-4e3e-87f7-6225228f10af.png">

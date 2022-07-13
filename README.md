@@ -9,7 +9,7 @@ The game is only for mobile.
 * HTML
 * SCSS
 * Java Script
-*API
+* API
 * Bootstrap
 ### design
 <img width="154" alt="front-page" src="https://user-images.githubusercontent.com/105584167/178556485-0ec6b747-1849-4dc3-8843-f296ebff6bea.png">

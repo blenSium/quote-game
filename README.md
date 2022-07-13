@@ -5,6 +5,10 @@ You can choose one of the three topics that are given in the beginning,
 there is a timer so you have 30-90 seconds to answer all the quotes.
 The game is only for mobile.
 
+## Difficulties:
+* remove duplicates from the buttons.
+* user experience
+
 ### Technologies the project is created with:
 * HTML
 * SCSS
